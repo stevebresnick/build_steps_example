@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains build_steps_example.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function build_steps_example_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the build_steps_example module.
+    case 'help.page.build_steps_example':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This is a simple module example to demonstrate Build Steps in action.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

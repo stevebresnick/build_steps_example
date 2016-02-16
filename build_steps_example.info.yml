@@ -1,0 +1,5 @@
+name: Build Steps Example
+type: module
+description: This is a simple module example to demonstrate Build Steps in action.
+core: 8.x
+package: Build Steps

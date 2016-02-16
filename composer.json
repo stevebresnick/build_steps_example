@@ -1,0 +1,14 @@
+{
+  "name": "drupal/build_steps_example",
+  "type": "drupal-module",
+  "description": "This is a simple module example to demonstrate Build Steps in action.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/build_steps_example",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/build_steps_example",
+    "source": "http://cgit.drupalcode.org/build_steps_example"
+  },
+  "require": { }
+}
